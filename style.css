@@ -1,0 +1,104 @@
+body {
+    background: gray;
+}
+.container {
+    border-radius: 20px;
+   background: black;
+    margin: 3% 35%;
+}
+/* .row-main {
+    color: white;
+    background: black;
+    width: 343px;
+    height: 61px;
+    line-height: 3;
+}
+.row-main h2 {
+    font-size: 22px;
+    text-align: center;
+} */
+.row input {
+    font-size: 38px;
+    outline: none;
+    color: white;
+    border: none;
+    background: black;
+    padding: 8px;
+    width: 358px;
+    height: 65px;
+    border-bottom: 1px solid grey;
+    text-align: end;
+    border-radius: 20px;
+}
+.cal-but {
+    height: 430px;
+    margin: 15px 0;
+}
+button {
+    cursor: pointer;
+    color: white;
+    background: #585353;
+    border-radius: 30px;
+    font-size: 30px;
+    margin: 14px 10px 10px 15px;
+    padding: 12px 22px;
+    border: navajowhite;
+}
+button#gray {
+    width: 28%;
+    color: black;
+    background: #c3b5b5;
+}
+button#orange {
+    color: white;
+    border: none;
+    background: orange;
+}
+button#orange-equal {
+    margin-left: 30px;
+    color: white;
+    border: none;
+    background: orange;
+}
+
+/* kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk tablet  00000000000000000000000000000000000000000000 */
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .container {
+        margin: 3% 25%;
+    }
+}
+
+/*__________________________________ for mobile_____________________________________________________ */
+@media only screen and (max-width:767px){
+    .container {
+        margin: 3% 3%;
+    }
+    .row input {
+        width: 270px;
+    }
+    .cal-but {
+        height: 370px;
+        margin: 15px 0;
+        padding: 0 5px;
+    }
+    button#gray {
+        padding: 15px 10px;
+        font-size: 15px;
+        width: 21%;
+    }
+    button#orange {
+        padding: 15px 10px;
+        font-size: 15px;
+        width: 21%;
+    }
+    button {
+        padding: 15px 10px;
+        font-size: 15px;
+        width: 21%;
+        margin: 10px 4px;
+    }
+    button#orange-equal {
+        margin-left: 0;
+    }
+}
